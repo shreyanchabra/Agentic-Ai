@@ -149,8 +149,10 @@ print(set_intersection)  # Output: {4, 5}
 set_difference = set1.difference(set2)  
 print(set_difference)  # Output: {1, 2, 3} - elements in set1 but not in set2
 
-# creating empty list, tuple and set
 
+
+
+# creating empty list, tuple and set
 empty_list = []
 empty_list = list()  # empty list can also be created using the list() constructor
 
