@@ -39,8 +39,8 @@ student["age"] = 22
 print(student)  # Output: {'name': 'John', 'age': 22, 'courses': ['Computer Science', 'Mathematics', 'Physics'], 'address': '123 Main St'}
 
 # adding/updating multiple key-value pairs using the update() method
-# if the key already exists, it will update the value; if the key does not exist, it will add a new key-value pair
-# update() method takes a dictionary as an argument
+    # if the key already exists, it will update the value; if the key does not exist, it will add a new key-value pair
+    # update() method takes a dictionary as an argument
 student.update({"age": 23, "email": "john@example.com"})
 
 print(student)  # Output: {'name': 'John', 'age': 23, 'courses': ['Computer Science', 'Mathematics', 'Physics'], 'address': '123 Main St', 'email': 'john@example.com'}
@@ -57,7 +57,7 @@ print(student)  # Output: {'name': 'John', 'courses': ['Computer Science', 'Math
 # len() method returns the number of keys in the dictionary
 print(len(student)) 
 
-# keys(), values() and items() method returns the list of keys, values and key-value pair as a tuple respectively
+# keys(), values() and items() method returns the list of keys, list of values and list of key-value pair as a tuple respectively
 print(student.keys())
 print(student.values())
 print(student.items())
@@ -66,7 +66,7 @@ print(student.items())
 for key in student:
     print(key)
 
-# for key in student.keys():
+# for key in student.keys(): ## keys can also be looped from student.keys() list
     # print(key)
 
 for value in student.values():
