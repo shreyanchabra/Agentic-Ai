@@ -154,10 +154,10 @@ print(set_difference)  # Output: {1, 2, 3} - elements in set1 but not in set2
 
 # creating empty list, tuple and set
 empty_list = []
-empty_list = list()  # empty list can also be created using the list() constructor
+# empty_list = list()  # empty list can also be created using the list() constructor
 
 empty_tuple = ()
-empty_tuple = tuple()  # empty tuple can also be created using the tuple() constructor
+# empty_tuple = tuple()  # empty tuple can also be created using the tuple() constructor
 
 # empty set can only be created using the set() constructor, using {} creates an empty dictionary.
 empty_set = {}  # This creates an empty dictionary, not a set
